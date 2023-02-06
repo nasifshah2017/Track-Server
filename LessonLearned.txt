@@ -4,3 +4,5 @@ You need to untrack the directory from git using
 
 git rm -r --cached node_modules
 git commit -m "removing node_modules"
+
+https://stackoverflow.com/questions/22924633/gitignore-is-not-ignoring-directories
