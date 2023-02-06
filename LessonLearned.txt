@@ -1,0 +1,6 @@
+Since the node_modules directory is already tracked as part of the repository, the .gitignore rule will not apply to it.
+
+You need to untrack the directory from git using
+
+git rm -r --cached node_modules
+git commit -m "removing node_modules"
