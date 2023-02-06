@@ -9,7 +9,7 @@ router.post("/signup", async (req, res) => {
     
     // console.log(req.body);
 
-    const {email, password} = req.body;                             // Extracting the user's password and email 
+    const {email, password} = req.body;                             // Extracting the user's passwordls and email 
 
     try {
 
